@@ -57,7 +57,7 @@ public class TriangleproblemIT {
 		
 			FileInputStream file;
 			int j=0;
-				file = new FileInputStream("test(1).xls");
+				file = new FileInputStream("test (1).xls");
 				Workbook wbk = Workbook.getWorkbook(file);
 				  Sheet sheet = wbk.getSheet(0);
 				  Object Data[][] = new Object[sheet.getRows()][sheet.getColumns()];
